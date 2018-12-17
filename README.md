@@ -1,1 +1,1 @@
-# laravel_api_base
+# Laravel API Template
