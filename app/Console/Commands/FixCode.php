@@ -40,7 +40,6 @@ class FixCode extends Command
     {
         $process = new Process(array('./vendor/bin/phpcbf', './app'));
         $process->run();
-
         foreach ($process as $type => $data) {
             echo $data;
         }
