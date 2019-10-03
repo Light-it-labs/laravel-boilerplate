@@ -3,12 +3,14 @@
 namespace App\Models;
 
 use App\User;
-use Backpack\Base\app\Notifications\ResetPasswordNotification as ResetPasswordNotification;
-use Tightenco\Parental\HasParentModel;
+use Illuminate\Notifications\Notifiable;
+use Backpack\CRUD\app\Models\Traits\InheritsRelationsFromParentModel;
+use Backpack\CRUD\app\Notifications\ResetPasswordNotification as ResetPasswordNotification;
 
 class BackpackUser extends User
 {
-    use HasParentModel;
+    use InheritsRelationsFromParentModel;
+    use Notifiable;
 
     protected $table = 'users';
 

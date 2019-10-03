@@ -40,7 +40,6 @@ class CheckCode extends Command
     {
         $process = new Process(array('./vendor/bin/phpcs', './app'));
         $process->run();
-
         foreach ($process as $type => $data) {
             echo $data;
         }
