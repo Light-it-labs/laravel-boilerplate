@@ -12,7 +12,7 @@ class BackpackUser extends User
     use InheritsRelationsFromParentModel;
     use Notifiable;
 
-    protected $table = 'users';
+    protected $table = 'admins';
 
     /**
      * Send the password reset notification.
