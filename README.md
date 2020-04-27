@@ -1,5 +1,5 @@
 # Laravel Template
-Laravel template is a boilerplate Laravel project. It follows the community best practices in terms of standards, security and maintainability, integrating a variety of testing and code quality tools. It's based on Laravel 6.0
+Laravel template is a boilerplate Laravel project. It follows the community best practices in terms of standards, security and maintainability, integrating a variety of testing and code quality tools. It's based on Laravel 7.
 
 
 ## Installed packages
