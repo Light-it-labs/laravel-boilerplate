@@ -72,7 +72,7 @@
 
                 <div class="links">
                     <a href="/admin/login">Admin</a>
-                    <a href="http://light-it.io">Light-it</a>
+                    <a href="http://lightit.io">Light-it</a>
                     <a href="https://github.com/Light-it-labs">GitHub</a>
                 </div>
             </div>
